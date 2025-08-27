@@ -1,9 +1,12 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
-      <h1 className='bg-green-400 text-2xl'>Test</h1>
+      <main>
+        <Outlet />
+      </main>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Protected from "./components/Protected.jsx"
+import Protected from "./components/AuthLayout.jsx"
 
 import Home from "./pages/Home.jsx"
 import Login from "./pages/Login.jsx"
